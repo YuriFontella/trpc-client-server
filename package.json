@@ -1,0 +1,22 @@
+{
+  "name": "trpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "client": "tsx src/client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trpc/client": "^10.7.0",
+    "@trpc/server": "^10.7.0",
+    "@types/node": "^18.11.18",
+    "fastify": "^4.11.0",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.4",
+    "zod": "^3.20.2"
+  }
+}
