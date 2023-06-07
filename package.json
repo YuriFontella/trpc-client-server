@@ -4,19 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
+    "server": "tsx watch src/server.ts",
     "client": "tsx src/client.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@trpc/client": "^10.7.0",
-    "@trpc/server": "^10.7.0",
-    "@types/node": "^18.11.18",
-    "fastify": "^4.11.0",
-    "tsx": "^3.12.1",
-    "typescript": "^4.9.4",
-    "zod": "^3.20.2"
+    "@trpc/client": "^10.29.1",
+    "@trpc/server": "^10.29.1",
+    "@types/node": "^20.2.5",
+    "fastify": "^4.17.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3",
+    "zod": "^3.21.4"
   }
 }
